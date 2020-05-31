@@ -27,7 +27,7 @@ class UsersSeeder extends Seeder
 
         // Membuat sample Admin
         $admin = new User();
-        $admin->name = "Admin Larapus";
+        $admin->name = "Admin Laravel";
         $admin->email = "admin@gmail.com";
         $admin->password = bcrypt("rahasia");
         $admin->is_verified = 1;
@@ -36,7 +36,7 @@ class UsersSeeder extends Seeder
 
         // Membuat sample member
         $member = new User();
-        $member->name = "Sample Member";
+        $member->name = "Member_1";
         $member->email = "member@gmail.com";
         $member->password = bcrypt("rahasia");
         $member->is_verified = 1;

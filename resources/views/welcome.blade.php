@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Halo</div>
                 <div class="panel-body">
-                    Selamat datang di Larapus
+                    Selamat datang di Laravel
                 </div>
             </div>
         </div>

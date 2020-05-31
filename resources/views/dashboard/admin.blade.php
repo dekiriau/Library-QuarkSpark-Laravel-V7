@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="panel-body">
-                    Selamat datang di Menu Administrasi Larapus. Silahkan pilih menu administrasi yang di inginkan.
+                    Selamat datang di Menu Administrasi. Silahkan pilih menu administrasi yang di inginkan.
                     <hr>
                     <h4>Statistik Penulis</h4>
                     <canvas id="chartPenulis" width="400" height="150"> </canvas>

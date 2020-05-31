@@ -16,15 +16,15 @@ class BooksSeeder extends Seeder
     public function run()
     {
         // Sample penulis
-        $author1 = Author::create(['name' => 'Mohammad Fauzil Adhim']);
-        $author2 = Author::create(['name' => 'Salim A. Fillah']);
-        $author3 = Author::create(['name' => 'Aam Amiruddin']);
+        $author1 = Author::create(['name' => 'Randhy Bryan Croen Field']);
+        $author2 = Author::create(['name' => 'Venny Avrio Lita']);
+        $author3 = Author::create(['name' => 'Sephia Sharu Rhamanadi']);
 
         // Sample buku
-        $book1 = Book::create(['title' => 'Kupinang Engkau dengan Hamdalah', 'amount' => 3, 'author_id' => $author1->id]);
-        $book2 = Book::create(['title' => 'Jalan Cinta Para Pejuang', 'amount' => 2, 'author_id' => $author2->id]);
-        $book3 = Book::create(['title' => 'Membingkai Surga dalam Rumah Tangga', 'amount' => 4, 'author_id' => $author3->id]);
-        $book4 = Book::create(['title' => 'Cinta & Seks Rumah Tangga Muslim', 'amount' => 1, 'author_id' => $author3->id]);
+        $book1 = Book::create(['title' => 'Aku Selalu Menanti & Menunggu', 'amount' => 3, 'author_id' => $author1->id]);
+        $book2 = Book::create(['title' => 'Kini Aku Telah Bahagia', 'amount' => 2, 'author_id' => $author2->id]);
+        $book3 = Book::create(['title' => 'Semangat Idul Fitri', 'amount' => 4, 'author_id' => $author3->id]);
+        $book4 = Book::create(['title' => 'Kisah Kasih Di Sekolah', 'amount' => 1, 'author_id' => $author3->id]);
 
         // Sample peminjaman buku
         $member = User::where('email', 'member@gmail.com')->first();

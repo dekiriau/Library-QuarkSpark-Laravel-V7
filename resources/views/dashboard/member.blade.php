@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="panel-body">
-                    Selamat datang di Larapus
+                    Selamat datang di Laravel
 
                     <table class="table">
                         <tbody>

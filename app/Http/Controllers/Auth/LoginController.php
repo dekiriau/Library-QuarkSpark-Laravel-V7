@@ -50,11 +50,7 @@ class LoginController extends Controller
 
         if(auth()->attempt(array('email' => $input['email'], 'password' => $input['password'], 'enabled' => true)))
         {
-            if (auth()->user()->is_admin == 1) {
-                return redirect()->route('admin.home');
-            }else{
-                return redirect()->route('home');
-            }
+            return redirect()->route('home');
         }else{
             return redirect()->route('login')
                 ->withErrors(['email' => 'Kombinasi password salah atau mungkin akun anda tidak aktif']);
